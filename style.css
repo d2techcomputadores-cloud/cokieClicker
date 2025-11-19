@@ -1,15 +1,38 @@
 main{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #img-vovo{
-    width: 4rem;
+    margin: 1rem;
+    width: 3rem;
+    border-style: solid;
 }
 
 #img-cursor{
-    width: 4rem;
+    margin: 1rem;
+    width: 3rem;
+    border-style: solid;
 }
 
 #img-cookie{
     width: 15rem;
+}
+
+#div-contrucoes{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 0.5rem;
+}
+
+#picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caption{
+    color: black;
 }
